@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Spark_ESP32Thing
+D Sparkfun ESP32 Thing
+K ESP32
+$ENDCMP
+#
+#End Doc Library

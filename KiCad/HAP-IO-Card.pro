@@ -1,4 +1,4 @@
-update=03/05/2017 22:13:09
+update=11/05/2017 19:29:25
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=LTV-354T_MiniFlat.pretty
 [eeschema/libraries]
 LibName1=HAP-IO-Card-rescue
 LibName2=power
