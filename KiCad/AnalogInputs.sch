@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 4 4
 Title ""
 Date ""
 Rev ""
@@ -45,16 +45,22 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 1350 2150 1800 850 
-U 591810E7
-F0 "DigitalInputs" 60
-F1 "DigitalInputs.sch" 60
-$EndSheet
-$Sheet
-S 5100 2900 1550 700 
-U 59181FE5
-F0 "ESP32 Connections" 60
-F1 "ESP32 Connections.sch" 60
-$EndSheet
+Text GLabel 3550 2600 0    60   Input ~ 0
+AI1
+Text GLabel 3350 2700 0    60   Input ~ 0
+AI2
+Text GLabel 3550 2800 0    60   Input ~ 0
+AI3
+Text GLabel 3350 2900 0    60   Input ~ 0
+AI4
+Text GLabel 3550 3000 0    60   Input ~ 0
+AI6
+Text GLabel 3350 3100 0    60   Input ~ 0
+AI7
+Text GLabel 3550 3200 0    60   Input ~ 0
+AI8
+Text GLabel 3300 3300 0    60   Input ~ 0
+AI9
+Text GLabel 3550 3400 0    60   Input ~ 0
+AI10
 $EndSCHEMATC
