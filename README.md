@@ -78,6 +78,9 @@ https://www.maximintegrated.com/en/products/interface/signal-line-protection-ics
 
 * uC ESP32 thing devboard
   * http://www.mouser.se/new/sparkfun/sparkfun-things/
+* 3.3V Zener http://se.rs-online.com/web/p/zener-diodes/7930793/
+* 10k Trim resistor http://se.rs-online.com/web/p/trimmer-resistors/7692167/
+* 100nF http://se.rs-online.com/web/p/ceramic-multilayer-capacitors/2644416/
 
 
 

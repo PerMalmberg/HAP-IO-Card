@@ -31,7 +31,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:spark_esp32thing
 LIBS:HAP-IO-Card-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
