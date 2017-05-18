@@ -42,7 +42,6 @@ Debugging pins/JTAG
 None - the intent is to keep everything isolated from peripherial devices.
 
 ## On-board switches
-* Reset
 * OTA-enable
 
 ## Power supply
@@ -68,8 +67,6 @@ TBD
 
 http://www.thebox.myzen.co.uk/Tutorial/Protection.html
 
-Possible input protection: [`MAX367`](
-https://www.maximintegrated.com/en/products/interface/signal-line-protection-ics/signal-line-protectors/MAX367.html/tb_tab0)
 
 * Capacitor calculations
   * http://www.electronics-tutorials.ws/rc/rc_1.html
@@ -81,6 +78,19 @@ https://www.maximintegrated.com/en/products/interface/signal-line-protection-ics
 * 3.3V Zener http://se.rs-online.com/web/p/zener-diodes/7930793/
 * 10k Trim resistor http://se.rs-online.com/web/p/trimmer-resistors/7692167/
 * 100nF http://se.rs-online.com/web/p/ceramic-multilayer-capacitors/2644416/
+* LM2596S-3.3 http://se.rs-online.com/web/p/buck-converters/5333686/
+* 1N5822 http://se.rs-online.com/web/p/rectifier-schottky-diodes/7087988/
+* 680uF 16V http://se.rs-online.com/web/p/aluminium-capacitors/5261418/
+* 22u0F 6.3V http://se.rs-online.com/web/p/aluminium-capacitors/8650662/
+
+
+
+
+## TODO
+Fuse
+Display
+Outputs
+Flashing
 
 
 
@@ -89,18 +99,3 @@ https://www.maximintegrated.com/en/products/interface/signal-line-protection-ics
 
 
 
-
-
-
-## No longer use components
-
-* I2C I/O extender:
-  * [NXP PCF8574T/3,512, 8-channel I/O Expander 100kHz, I2C, 16-Pin SOIC](http://se.rs-online.com/web/p/i-o-expanders/0510780/)
-  * Notes:
-    * Use the ^INT line to signal changes to the uC.
-* [8-way DIP Switch Apem IKD0803000](http://se.rs-online.com/web/p/dip-sip-switches/8772312/)
-* [Texas Instruments ULN2803ADW Octal NPN Darlington Pair, 0.5 A 50 V, 18-Pin SOIC](http://se.rs-online.com/web/p/darlington-transistors/6466311/)
-  * http://www.ti.com/lit/ds/symlink/uln2803a.pdf
-* Pull-down resistor for sensor selection [Panasonic ERJP06 Series Thick Film Surface Mount Fixed Resistor 0805 Case 10kΩ ±5% 0.5W ±200ppm/°C](http://se.rs-online.com/web/p/surface-mount-fixed-resistors/0153797/)
-* Interrupt NANDs [DiodesZetex 74LVC00AT14-13, Quad 2-Input NAND Logic Gate, 1.65 → 5.5 V, 14-Pin TSSOP](http://se.rs-online.com/web/p/standard-logic-gates/7705294/)
-* [TE Connectivity CRG Series Thick Film Resistor 0603 Case 10kΩ ±1% 0.1W ±100ppm/°C](http://se.rs-online.com/web/p/surface-mount-fixed-resistors/1251173/)

@@ -1,5 +1,5 @@
 (fp_lib_table
   (lib (name spark_esp32thing)(type KiCad)(uri "$(KIPRJMOD)/spark_esp32thing.pretty")(options "")(descr ""))
   (lib (name LTV-354T_MiniFlat)(type KiCad)(uri "$(KIPRJMOD)/LTV-354T_MiniFlat.pretty")(options "")(descr ""))
-  (lib (name SMD)(type KiCad)(uri "$(KIPRJMOD)/SMD.pretty")(options "")(descr ""))
+  (lib (name SRR1260-330M)(type Legacy)(uri "$(KIPRJMOD)/SRR1260-330M/SRR1260-330M.mod")(options "")(descr ""))
 )

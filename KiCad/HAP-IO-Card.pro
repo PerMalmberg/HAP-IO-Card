@@ -1,4 +1,4 @@
-update=11/05/2017 19:29:25
+update=18/05/2017 21:57:49
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,9 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=spark_esp32thing
+LibName32=C:/Program Files/KiCad/share/kicad/library/power
+LibName33=C:/Program Files/KiCad/share/kicad/library/Power_Management
+LibName34=C:/Program Files/KiCad/share/kicad/library/dc-dc
+LibName35=C:/Program Files/KiCad/share/kicad/library/diode
+LibName36=C:/Program Files/KiCad/share/kicad/library/ESD_Protection
+LibName37=SRR1260-330M/SRR1260-330M

@@ -30,12 +30,17 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:spark_esp32thing
+LIBS:Power_Management
+LIBS:dc-dc
+LIBS:diode
+LIBS:ESD_Protection
+LIBS:SRR1260-330M
 LIBS:HAP-IO-Card-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 2 6
 Title ""
 Date ""
 Rev ""
@@ -1035,4 +1040,6 @@ Wire Wire Line
 	3350 6150 3650 6150
 Text Notes 3600 2250 1    50   ~ 0
 Select based on input voltage.\nMax 50mA.\n1k should allow for \nvoltages 3.3 - 48V
+Text Notes 4000 2100 0    60   ~ 0
+Inverting inputs, i.e. active low.
 $EndSCHEMATC

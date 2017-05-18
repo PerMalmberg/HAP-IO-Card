@@ -30,12 +30,17 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:spark_esp32thing
+LIBS:Power_Management
+LIBS:dc-dc
+LIBS:diode
+LIBS:ESD_Protection
+LIBS:SRR1260-330M
 LIBS:HAP-IO-Card-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -46,21 +51,33 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 1350 2150 1800 850 
+S 900  1800 1450 700 
 U 591810E7
 F0 "DigitalInputs" 60
 F1 "DigitalInputs.sch" 60
 $EndSheet
 $Sheet
-S 3350 2200 1550 700 
+S 900  800  1550 700 
 U 59181FE5
 F0 "ESP32 Connections" 60
 F1 "ESP32 Connections.sch" 60
 $EndSheet
 $Sheet
-S 5250 2300 1200 450 
+S 900  2750 1200 450 
 U 591A7DC8
 F0 "Analog Inputs" 60
 F1 "AnalogInputs.sch" 60
+$EndSheet
+$Sheet
+S 850  4150 1450 550 
+U 591CB050
+F0 "Powersupply" 60
+F1 "Powersupply.sch" 60
+$EndSheet
+$Sheet
+S 850  3500 1300 400 
+U 591CB087
+F0 "JTAG" 60
+F1 "JTAG.sch" 60
 $EndSheet
 $EndSCHEMATC
