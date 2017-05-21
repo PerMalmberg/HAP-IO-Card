@@ -75,22 +75,49 @@ http://www.thebox.myzen.co.uk/Tutorial/Protection.html
 
 * uC ESP32 thing devboard
   * http://www.mouser.se/new/sparkfun/sparkfun-things/
-* 3.3V Zener http://se.rs-online.com/web/p/zener-diodes/7930793/
-* 10k Trim resistor http://se.rs-online.com/web/p/trimmer-resistors/7692167/
-* 100nF http://se.rs-online.com/web/p/ceramic-multilayer-capacitors/2644416/
-* LM2596S-3.3 http://se.rs-online.com/web/p/buck-converters/5333686/
-* 1N5822 http://se.rs-online.com/web/p/rectifier-schottky-diodes/7087988/
-* 680uF 16V http://se.rs-online.com/web/p/aluminium-capacitors/5261418/
-* 22u0F 6.3V http://se.rs-online.com/web/p/aluminium-capacitors/8650662/
+
+* Misc resistors
+  * 10k http://se.rs-online.com/web/p/surface-mount-fixed-resistors/9059688/
+
+* Analog Inputs
+  * I/O Expander ADS1115IDGST http://se.rs-online.com/web/p/general-purpose-adcs/7094544/
+  * 3.3V Zener http://se.rs-online.com/web/p/zener-diodes/7930793/
+  * 10k Trim resistor http://se.rs-online.com/web/p/trimmer-resistors/7692167/
+  * 100nF http://se.rs-online.com/web/p/ceramic-multilayer-capacitors/4514777/
+
+  * Digital I/O
+    * I/O Expander MCP23017 http://se.rs-online.com/web/p/i-o-expanders/0403816/
+    * Input
+      * Pull-up 10k resitor network http://se.rs-online.com/web/p/resistor-networks/5224071/
+      * LED http://se.rs-online.com/web/p/visible-leds/8886304/
+      * LED limiting resistor 180R http://se.rs-online.com/web/p/surface-mount-fixed-resistors/9059616/
+      * 100R discharge resistor http://se.rs-online.com/web/p/surface-mount-fixed-resistors/9013689/
+      * 10uF http://se.rs-online.com/web/p/aluminium-capacitors/7060475/
+      * 1k 3W http://se.rs-online.com/web/p/surface-mount-fixed-resistors/8711121/
+    * Output
+      * Base resistor 470 http://se.rs-online.com/web/p/surface-mount-fixed-resistors/9059635/
+      * Kickback protection http://se.rs-online.com/web/p/rectifier-schottky-diodes/7743278/
+      *  Transistor http://se.rs-online.com/web/p/bipolar-transistors/7703343/
+      * LED http://se.rs-online.com/web/p/visible-leds/8886313/
+      * LED limiting resistor 180R http://se.rs-online.com/web/p/surface-mount-fixed-resistors/9059616/
+
+* Power supply
+  * LM2596S-3.3 http://se.rs-online.com/web/p/buck-converters/5333686/
+  * 1N5822 http://se.rs-online.com/web/p/rectifier-schottky-diodes/7087988/
+  * 680uF 16V http://se.rs-online.com/web/p/aluminium-capacitors/5261418/
+  * 22u0F 6.3V http://se.rs-online.com/web/p/aluminium-capacitors/8650662/
 
 
 
 
 ## TODO
-Fuse
+Fuse 12V and 3.3V
 Display
-Outputs
-Flashing
+Flashing wires
+Mounting holes http://www.ebay.com/itm/DIN-Rail-Mounting-Carrier-for-72mm-x-110mm-PCB-Housing-Bracket-/131318695142
+I2C expansion header
+SPI expansion header
+NeoPixel (with expansion header)
 
 
 

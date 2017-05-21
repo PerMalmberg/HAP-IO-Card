@@ -1,4 +1,4 @@
-update=18/05/2017 21:57:49
+update=19/05/2017 23:21:50
 version=1
 last_client=kicad
 [pcbnew]
@@ -66,3 +66,4 @@ LibName34=C:/Program Files/KiCad/share/kicad/library/dc-dc
 LibName35=C:/Program Files/KiCad/share/kicad/library/diode
 LibName36=C:/Program Files/KiCad/share/kicad/library/ESD_Protection
 LibName37=SRR1260-330M/SRR1260-330M
+LibName38=ADS1115/ADS1115IDGST

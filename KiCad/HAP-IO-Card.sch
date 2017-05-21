@@ -35,6 +35,7 @@ LIBS:dc-dc
 LIBS:diode
 LIBS:ESD_Protection
 LIBS:SRR1260-330M
+LIBS:ADS1115IDGST
 LIBS:HAP-IO-Card-cache
 EELAYER 26 0
 EELAYER END
@@ -53,8 +54,8 @@ $EndDescr
 $Sheet
 S 900  1800 1450 700 
 U 591810E7
-F0 "DigitalInputs" 60
-F1 "DigitalInputs.sch" 60
+F0 "Digital I/O" 60
+F1 "DigitalIO.sch" 60
 $EndSheet
 $Sheet
 S 900  800  1550 700 
