@@ -36,12 +36,13 @@ LIBS:diode
 LIBS:ESD_Protection
 LIBS:SRR1260-330M
 LIBS:ADS1115IDGST
+LIBS:LM1086
 LIBS:HAP-IO-Card-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -70,15 +71,21 @@ F0 "Analog Inputs" 60
 F1 "AnalogInputs.sch" 60
 $EndSheet
 $Sheet
-S 850  4150 1450 550 
+S 900  3450 1450 550 
 U 591CB050
 F0 "Powersupply" 60
 F1 "Powersupply.sch" 60
 $EndSheet
 $Sheet
-S 850  3500 1300 400 
-U 591CB087
-F0 "JTAG" 60
-F1 "JTAG.sch" 60
+S 2650 800  900  350 
+U 5924A2C7
+F0 "Headers" 60
+F1 "Headers.sch" 60
+$EndSheet
+$Sheet
+S 2850 1750 1100 350 
+U 5924F41E
+F0 "NeoPixel" 60
+F1 "NeoPixel.sch" 60
 $EndSheet
 $EndSCHEMATC

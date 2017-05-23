@@ -36,13 +36,12 @@ LIBS:diode
 LIBS:ESD_Protection
 LIBS:SRR1260-330M
 LIBS:ADS1115IDGST
-LIBS:LM1086
 LIBS:HAP-IO-Card-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 6 7
 Title ""
 Date ""
 Rev ""
@@ -52,40 +51,4 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 900  1800 1450 700 
-U 591810E7
-F0 "Digital I/O" 60
-F1 "DigitalIO.sch" 60
-$EndSheet
-$Sheet
-S 900  800  1550 700 
-U 59181FE5
-F0 "ESP32 Connections" 60
-F1 "ESP32 Connections.sch" 60
-$EndSheet
-$Sheet
-S 900  2750 1200 450 
-U 591A7DC8
-F0 "Analog Inputs" 60
-F1 "AnalogInputs.sch" 60
-$EndSheet
-$Sheet
-S 900  3450 1450 550 
-U 591CB050
-F0 "Powersupply" 60
-F1 "Powersupply.sch" 60
-$EndSheet
-$Sheet
-S 2650 800  900  350 
-U 5924A2C7
-F0 "Headers" 60
-F1 "Headers.sch" 60
-$EndSheet
-$Sheet
-S 2850 1750 1100 350 
-U 5924F41E
-F0 "NeoPixel" 60
-F1 "NeoPixel.sch" 60
-$EndSheet
 $EndSCHEMATC

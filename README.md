@@ -107,7 +107,10 @@ http://www.thebox.myzen.co.uk/Tutorial/Protection.html
   * 680uF 16V http://se.rs-online.com/web/p/aluminium-capacitors/5261418/
   * 22u0F 6.3V http://se.rs-online.com/web/p/aluminium-capacitors/8650662/
 
-
+* New power supply
+  * LM1086-5V http://se.rs-online.com/web/p/low-dropout-voltage-regulators/5358578/
+  * LM1086-3.3V http://se.rs-online.com/web/p/low-dropout-voltage-regulators/5339498/
+  * 100uF http://se.rs-online.com/web/p/aluminium-capacitors/8650656/
 
 
 ## TODO
@@ -118,6 +121,7 @@ Mounting holes http://www.ebay.com/itm/DIN-Rail-Mounting-Carrier-for-72mm-x-110m
 I2C expansion header
 SPI expansion header
 NeoPixel (with expansion header)
+Test points
 
 
 
