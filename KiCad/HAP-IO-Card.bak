@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:HAP-IO-Card-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -83,7 +82,7 @@ F0 "Headers" 60
 F1 "Headers.sch" 60
 $EndSheet
 $Sheet
-S 2850 1750 1100 350 
+S 2650 1800 1100 350 
 U 5924F41E
 F0 "NeoPixel" 60
 F1 "NeoPixel.sch" 60
