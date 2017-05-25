@@ -1,4 +1,4 @@
-update=25/05/2017 19:23:18
+update=25/05/2017 21:30:35
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=LTV-354T_MiniFlat.pretty
@@ -67,3 +65,5 @@ LibName35=C:/Program Files/KiCad/share/kicad/library/ESD_Protection
 LibName36=SRR1260-330M/SRR1260-330M
 LibName37=ADS1115/ADS1115IDGST
 LibName38=LM1086
+[general]
+version=1
