@@ -43,10 +43,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 7
 Title "HAP I/O Card"
-Date "2017-05-26"
+Date ""
 Rev ""
 Comp ""
-Comment1 "Author: Per Malmberg"
+Comment1 "Author Per Malmberg"
 Comment2 "https://github.com/PerMalmberg/HAP-IO-Card"
 Comment3 ""
 Comment4 ""

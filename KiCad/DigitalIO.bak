@@ -42,12 +42,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 7
-Title ""
+Title "HAP I/O Card"
 Date ""
 Rev ""
 Comp ""
-Comment1 ""
-Comment2 ""
+Comment1 "Author Per Malmberg"
+Comment2 "https://github.com/PerMalmberg/HAP-IO-Card"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -968,10 +968,10 @@ F 3 "" H 5750 900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R225
+L R R233
 U 1 1 5921C3C8
 P 5900 900
-F 0 "R225" V 5980 900 50  0000 C CNN
+F 0 "R233" V 5980 900 50  0000 C CNN
 F 1 "180" V 5900 900 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 5830 900 50  0001 C CNN
 F 3 "http://se.rs-online.com/web/p/surface-mount-fixed-resistors/9059616/" H 5900 900 50  0001 C CNN
@@ -1019,10 +1019,10 @@ F 3 "" H 6400 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R231
+L R R239
 U 1 1 592375D8
 P 5950 1250
-F 0 "R231" V 5743 1250 50  0000 C CNN
+F 0 "R239" V 5743 1250 50  0000 C CNN
 F 1 "470" V 5834 1250 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 5880 1250 50  0001 C CNN
 F 3 "http://se.rs-online.com/web/p/surface-mount-fixed-resistors/9059635/" H 5950 1250 50  0001 C CNN
@@ -1058,7 +1058,7 @@ U 1 1 59241132
 P 6650 1300
 F 0 "D215" V 6700 1400 50  0000 L CNN
 F 1 "1N4007" V 6800 1350 50  0000 L CNN
-F 2 "Diodes_THT:D_DO-41_SOD81_P5.08mm_Vertical_KathodeUp" H 6650 1125 50  0001 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P2.54mm_Vertical_KathodeUp" H 6650 1125 50  0001 C CNN
 F 3 "http://se.rs-online.com/web/p/rectifier-schottky-diodes/7743278/" H 6650 1300 50  0001 C CNN
 	1    6650 1300
 	0    1    1    0   
@@ -1099,10 +1099,10 @@ F 3 "" H 6400 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R232
+L R R240
 U 1 1 5924AFD7
 P 5950 2250
-F 0 "R232" V 5743 2250 50  0000 C CNN
+F 0 "R240" V 5743 2250 50  0000 C CNN
 F 1 "470" V 5834 2250 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 5880 2250 50  0001 C CNN
 F 3 "http://se.rs-online.com/web/p/surface-mount-fixed-resistors/9059635/" H 5950 2250 50  0001 C CNN
@@ -1155,10 +1155,10 @@ F 3 "" H 6400 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R233
+L R R241
 U 1 1 5924B3BA
 P 5950 3250
-F 0 "R233" V 5743 3250 50  0000 C CNN
+F 0 "R241" V 5743 3250 50  0000 C CNN
 F 1 "470" V 5834 3250 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 5880 3250 50  0001 C CNN
 F 3 "http://se.rs-online.com/web/p/surface-mount-fixed-resistors/9059635/" H 5950 3250 50  0001 C CNN
@@ -1256,10 +1256,10 @@ F 3 "" H 6400 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R235
+L R R243
 U 1 1 5924B789
 P 5950 5250
-F 0 "R235" V 5743 5250 50  0000 C CNN
+F 0 "R243" V 5743 5250 50  0000 C CNN
 F 1 "470" V 5834 5250 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 5880 5250 50  0001 C CNN
 F 3 "http://se.rs-online.com/web/p/surface-mount-fixed-resistors/9059635/" H 5950 5250 50  0001 C CNN
@@ -1323,10 +1323,10 @@ F 3 "" H 6400 6450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R236
+L R R244
 U 1 1 5924C242
 P 5950 6250
-F 0 "R236" V 5743 6250 50  0000 C CNN
+F 0 "R244" V 5743 6250 50  0000 C CNN
 F 1 "470" V 5834 6250 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 5880 6250 50  0001 C CNN
 F 3 "http://se.rs-online.com/web/p/surface-mount-fixed-resistors/9059635/" H 5950 6250 50  0001 C CNN
@@ -1379,10 +1379,10 @@ F 3 "" H 9600 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R239
+L R R247
 U 1 1 5924C779
 P 9150 1300
-F 0 "R239" V 8943 1300 50  0000 C CNN
+F 0 "R247" V 8943 1300 50  0000 C CNN
 F 1 "470" V 9034 1300 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 9080 1300 50  0001 C CNN
 F 3 "http://se.rs-online.com/web/p/surface-mount-fixed-resistors/9059635/" H 9150 1300 50  0001 C CNN
@@ -1435,10 +1435,10 @@ F 3 "" H 9600 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R240
+L R R248
 U 1 1 5924CD5F
 P 9150 2300
-F 0 "R240" V 8943 2300 50  0000 C CNN
+F 0 "R248" V 8943 2300 50  0000 C CNN
 F 1 "470" V 9034 2300 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 9080 2300 50  0001 C CNN
 F 3 "http://se.rs-online.com/web/p/surface-mount-fixed-resistors/9059635/" H 9150 2300 50  0001 C CNN
@@ -1499,7 +1499,7 @@ F 3 "" H 7325 3800 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	9600 950  10300 950 
+	9600 950  10250 950 
 Wire Wire Line
 	9600 1950 10250 1950
 $Comp
@@ -1657,10 +1657,10 @@ F 3 "" H 1250 7250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R226
+L R R234
 U 1 1 5926EA96
 P 5900 1900
-F 0 "R226" V 5980 1900 50  0000 C CNN
+F 0 "R234" V 5980 1900 50  0000 C CNN
 F 1 "180" V 5900 1900 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 5830 1900 50  0001 C CNN
 F 3 "http://se.rs-online.com/web/p/surface-mount-fixed-resistors/9059616/" H 5900 1900 50  0001 C CNN
@@ -1668,10 +1668,10 @@ F 3 "http://se.rs-online.com/web/p/surface-mount-fixed-resistors/9059616/" H 590
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R227
+L R R235
 U 1 1 5926F2D2
 P 5900 2900
-F 0 "R227" V 5980 2900 50  0000 C CNN
+F 0 "R235" V 5980 2900 50  0000 C CNN
 F 1 "180" V 5900 2900 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 5830 2900 50  0001 C CNN
 F 3 "http://se.rs-online.com/web/p/surface-mount-fixed-resistors/9059616/" H 5900 2900 50  0001 C CNN
@@ -1679,10 +1679,10 @@ F 3 "http://se.rs-online.com/web/p/surface-mount-fixed-resistors/9059616/" H 590
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R234
+L R R242
 U 1 1 5924B5A4
 P 5950 4250
-F 0 "R234" V 5743 4250 50  0000 C CNN
+F 0 "R242" V 5743 4250 50  0000 C CNN
 F 1 "470" V 5834 4250 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 5880 4250 50  0001 C CNN
 F 3 "http://se.rs-online.com/web/p/surface-mount-fixed-resistors/9059635/" H 5950 4250 50  0001 C CNN
@@ -1690,10 +1690,10 @@ F 3 "http://se.rs-online.com/web/p/surface-mount-fixed-resistors/9059635/" H 595
 	0    1    1    0   
 $EndComp
 $Comp
-L R R228
+L R R236
 U 1 1 59270677
 P 5900 3900
-F 0 "R228" V 5980 3900 50  0000 C CNN
+F 0 "R236" V 5980 3900 50  0000 C CNN
 F 1 "180" V 5900 3900 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 5830 3900 50  0001 C CNN
 F 3 "http://se.rs-online.com/web/p/surface-mount-fixed-resistors/9059616/" H 5900 3900 50  0001 C CNN
@@ -1701,10 +1701,10 @@ F 3 "http://se.rs-online.com/web/p/surface-mount-fixed-resistors/9059616/" H 590
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R229
+L R R237
 U 1 1 59270ED4
 P 5900 4900
-F 0 "R229" V 5980 4900 50  0000 C CNN
+F 0 "R237" V 5980 4900 50  0000 C CNN
 F 1 "180" V 5900 4900 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 5830 4900 50  0001 C CNN
 F 3 "http://se.rs-online.com/web/p/surface-mount-fixed-resistors/9059616/" H 5900 4900 50  0001 C CNN
@@ -1712,10 +1712,10 @@ F 3 "http://se.rs-online.com/web/p/surface-mount-fixed-resistors/9059616/" H 590
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R230
+L R R238
 U 1 1 592714CC
 P 5900 5900
-F 0 "R230" V 5980 5900 50  0000 C CNN
+F 0 "R238" V 5980 5900 50  0000 C CNN
 F 1 "180" V 5900 5900 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 5830 5900 50  0001 C CNN
 F 3 "http://se.rs-online.com/web/p/surface-mount-fixed-resistors/9059616/" H 5900 5900 50  0001 C CNN
@@ -1723,10 +1723,10 @@ F 3 "http://se.rs-online.com/web/p/surface-mount-fixed-resistors/9059616/" H 590
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R237
+L R R245
 U 1 1 592722C3
 P 9100 950
-F 0 "R237" V 9180 950 50  0000 C CNN
+F 0 "R245" V 9180 950 50  0000 C CNN
 F 1 "180" V 9100 950 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 9030 950 50  0001 C CNN
 F 3 "http://se.rs-online.com/web/p/surface-mount-fixed-resistors/9059616/" H 9100 950 50  0001 C CNN
@@ -1734,10 +1734,10 @@ F 3 "http://se.rs-online.com/web/p/surface-mount-fixed-resistors/9059616/" H 910
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R238
+L R R246
 U 1 1 592723B5
 P 9100 1950
-F 0 "R238" V 9180 1950 50  0000 C CNN
+F 0 "R246" V 9180 1950 50  0000 C CNN
 F 1 "180" V 9100 1950 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 9030 1950 50  0001 C CNN
 F 3 "http://se.rs-online.com/web/p/surface-mount-fixed-resistors/9059616/" H 9100 1950 50  0001 C CNN
@@ -1745,10 +1745,10 @@ F 3 "http://se.rs-online.com/web/p/surface-mount-fixed-resistors/9059616/" H 910
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R242
+L R R250
 U 1 1 592845CC
 P 10300 4700
-F 0 "R242" H 10370 4746 50  0000 L CNN
+F 0 "R250" H 10370 4746 50  0000 L CNN
 F 1 "10k" H 10370 4655 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805" V 10230 4700 50  0001 C CNN
 F 3 "" H 10300 4700 50  0001 C CNN
@@ -1759,10 +1759,10 @@ Wire Wire Line
 	10300 4850 10300 4900
 Connection ~ 10300 4900
 $Comp
-L R R241
+L R R249
 U 1 1 5928499B
 P 10100 4700
-F 0 "R241" H 10170 4746 50  0000 L CNN
+F 0 "R249" H 10170 4746 50  0000 L CNN
 F 1 "10k" H 10170 4655 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805" V 10030 4700 50  0001 C CNN
 F 3 "" H 10100 4700 50  0001 C CNN
@@ -1925,7 +1925,7 @@ U 1 1 592D93D7
 P 6650 2300
 F 0 "D216" V 6700 2400 50  0000 L CNN
 F 1 "1N4007" V 6800 2350 50  0000 L CNN
-F 2 "Diodes_THT:D_DO-41_SOD81_P5.08mm_Vertical_KathodeUp" H 6650 2125 50  0001 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P2.54mm_Vertical_KathodeUp" H 6650 2125 50  0001 C CNN
 F 3 "http://se.rs-online.com/web/p/rectifier-schottky-diodes/7743278/" H 6650 2300 50  0001 C CNN
 	1    6650 2300
 	0    1    1    0   
@@ -1936,7 +1936,7 @@ U 1 1 592D96C8
 P 6650 3300
 F 0 "D217" V 6700 3400 50  0000 L CNN
 F 1 "1N4007" V 6800 3350 50  0000 L CNN
-F 2 "Diodes_THT:D_DO-41_SOD81_P5.08mm_Vertical_KathodeUp" H 6650 3125 50  0001 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P2.54mm_Vertical_KathodeUp" H 6650 3125 50  0001 C CNN
 F 3 "http://se.rs-online.com/web/p/rectifier-schottky-diodes/7743278/" H 6650 3300 50  0001 C CNN
 	1    6650 3300
 	0    1    1    0   
@@ -1947,7 +1947,7 @@ U 1 1 592D9C08
 P 6650 4300
 F 0 "D218" V 6700 4400 50  0000 L CNN
 F 1 "1N4007" V 6800 4350 50  0000 L CNN
-F 2 "Diodes_THT:D_DO-41_SOD81_P5.08mm_Vertical_KathodeUp" H 6650 4125 50  0001 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P2.54mm_Vertical_KathodeUp" H 6650 4125 50  0001 C CNN
 F 3 "http://se.rs-online.com/web/p/rectifier-schottky-diodes/7743278/" H 6650 4300 50  0001 C CNN
 	1    6650 4300
 	0    1    1    0   
@@ -1958,7 +1958,7 @@ U 1 1 592D9D02
 P 6650 5300
 F 0 "D219" V 6700 5400 50  0000 L CNN
 F 1 "1N4007" V 6800 5350 50  0000 L CNN
-F 2 "Diodes_THT:D_DO-41_SOD81_P5.08mm_Vertical_KathodeUp" H 6650 5125 50  0001 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P2.54mm_Vertical_KathodeUp" H 6650 5125 50  0001 C CNN
 F 3 "http://se.rs-online.com/web/p/rectifier-schottky-diodes/7743278/" H 6650 5300 50  0001 C CNN
 	1    6650 5300
 	0    1    1    0   
@@ -1969,7 +1969,7 @@ U 1 1 592DA2C2
 P 6650 6300
 F 0 "D220" V 6700 6400 50  0000 L CNN
 F 1 "1N4007" V 6800 6350 50  0000 L CNN
-F 2 "Diodes_THT:D_DO-41_SOD81_P5.08mm_Vertical_KathodeUp" H 6650 6125 50  0001 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P2.54mm_Vertical_KathodeUp" H 6650 6125 50  0001 C CNN
 F 3 "http://se.rs-online.com/web/p/rectifier-schottky-diodes/7743278/" H 6650 6300 50  0001 C CNN
 	1    6650 6300
 	0    1    1    0   
@@ -1980,7 +1980,7 @@ U 1 1 592DA3B6
 P 9850 1350
 F 0 "D223" V 9900 1450 50  0000 L CNN
 F 1 "1N4007" V 10000 1400 50  0000 L CNN
-F 2 "Diodes_THT:D_DO-41_SOD81_P5.08mm_Vertical_KathodeUp" H 9850 1175 50  0001 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P2.54mm_Vertical_KathodeUp" H 9850 1175 50  0001 C CNN
 F 3 "http://se.rs-online.com/web/p/rectifier-schottky-diodes/7743278/" H 9850 1350 50  0001 C CNN
 	1    9850 1350
 	0    1    1    0   
@@ -1991,7 +1991,7 @@ U 1 1 592DB032
 P 9850 2350
 F 0 "D224" V 9900 2450 50  0000 L CNN
 F 1 "1N4007" V 10000 2400 50  0000 L CNN
-F 2 "Diodes_THT:D_DO-41_SOD81_P5.08mm_Vertical_KathodeUp" H 9850 2175 50  0001 C CNN
+F 2 "Diodes_THT:D_DO-41_SOD81_P2.54mm_Vertical_KathodeUp" H 9850 2175 50  0001 C CNN
 F 3 "http://se.rs-online.com/web/p/rectifier-schottky-diodes/7743278/" H 9850 2350 50  0001 C CNN
 	1    9850 2350
 	0    1    1    0   
@@ -1999,10 +1999,10 @@ $EndComp
 Wire Wire Line
 	2000 1400 3000 1400
 $Comp
-L R R243
+L R R225
 U 1 1 5929F4FA
 P 3150 1400
-F 0 "R243" H 3220 1446 50  0000 L CNN
+F 0 "R225" H 3220 1446 50  0000 L CNN
 F 1 "10k" H 3220 1355 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805" V 3080 1400 50  0001 C CNN
 F 3 "" H 3150 1400 50  0001 C CNN
@@ -2021,10 +2021,10 @@ F 3 "" H 3300 1400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R244
+L R R226
 U 1 1 5929F989
 P 3150 1950
-F 0 "R244" H 3220 1996 50  0000 L CNN
+F 0 "R226" H 3220 1996 50  0000 L CNN
 F 1 "10k" H 3220 1905 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805" V 3080 1950 50  0001 C CNN
 F 3 "" H 3150 1950 50  0001 C CNN
@@ -2043,10 +2043,10 @@ F 3 "" H 3300 1950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R245
+L R R227
 U 1 1 5929FA48
 P 3150 2450
-F 0 "R245" H 3220 2496 50  0000 L CNN
+F 0 "R227" H 3220 2496 50  0000 L CNN
 F 1 "10k" H 3220 2405 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805" V 3080 2450 50  0001 C CNN
 F 3 "" H 3150 2450 50  0001 C CNN
@@ -2065,10 +2065,10 @@ F 3 "" H 3300 2450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R246
+L R R228
 U 1 1 5929FB04
 P 3150 2950
-F 0 "R246" H 3220 2996 50  0000 L CNN
+F 0 "R228" H 3220 2996 50  0000 L CNN
 F 1 "10k" H 3220 2905 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805" V 3080 2950 50  0001 C CNN
 F 3 "" H 3150 2950 50  0001 C CNN
@@ -2087,10 +2087,10 @@ F 3 "" H 3300 2950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R247
+L R R229
 U 1 1 5929FFBE
 P 3150 3450
-F 0 "R247" H 3220 3496 50  0000 L CNN
+F 0 "R229" H 3220 3496 50  0000 L CNN
 F 1 "10k" H 3220 3405 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805" V 3080 3450 50  0001 C CNN
 F 3 "" H 3150 3450 50  0001 C CNN
@@ -2109,10 +2109,10 @@ F 3 "" H 3300 3450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R248
+L R R230
 U 1 1 592A0078
 P 3150 3950
-F 0 "R248" H 3220 3996 50  0000 L CNN
+F 0 "R230" H 3220 3996 50  0000 L CNN
 F 1 "10k" H 3220 3905 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805" V 3080 3950 50  0001 C CNN
 F 3 "" H 3150 3950 50  0001 C CNN
@@ -2131,10 +2131,10 @@ F 3 "" H 3300 3950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R249
+L R R231
 U 1 1 592A012B
 P 3150 4450
-F 0 "R249" H 3220 4496 50  0000 L CNN
+F 0 "R231" H 3220 4496 50  0000 L CNN
 F 1 "10k" H 3220 4405 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805" V 3080 4450 50  0001 C CNN
 F 3 "" H 3150 4450 50  0001 C CNN
@@ -2153,10 +2153,10 @@ F 3 "" H 3300 4450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R250
+L R R232
 U 1 1 592A094C
 P 3150 4950
-F 0 "R250" H 3220 4996 50  0000 L CNN
+F 0 "R232" H 3220 4996 50  0000 L CNN
 F 1 "10k" H 3220 4905 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805" V 3080 4950 50  0001 C CNN
 F 3 "" H 3150 4950 50  0001 C CNN
@@ -2199,12 +2199,12 @@ $EndComp
 $Comp
 L Screw_Terminal_1x02 J215
 U 1 1 592A770A
-P 10500 850
-F 0 "J215" H 10500 1100 50  0000 C TNN
-F 1 "GND" V 10350 850 50  0000 C TNN
-F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_2pol" H 10500 625 50  0001 C CNN
-F 3 "" H 10475 850 50  0001 C CNN
-	1    10500 850 
+P 10450 850
+F 0 "J215" H 10450 1100 50  0000 C TNN
+F 1 "GND" V 10300 850 50  0000 C TNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_2pol" H 10450 625 50  0001 C CNN
+F 3 "" H 10425 850 50  0001 C CNN
+	1    10450 850 
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -2298,12 +2298,12 @@ $EndComp
 $Comp
 L GND #PWR056
 U 1 1 592B53EC
-P 10300 750
-F 0 "#PWR056" H 10300 500 50  0001 C CNN
-F 1 "GND" H 10305 577 50  0000 C CNN
-F 2 "" H 10300 750 50  0001 C CNN
-F 3 "" H 10300 750 50  0001 C CNN
-	1    10300 750 
+P 10250 750
+F 0 "#PWR056" H 10250 500 50  0001 C CNN
+F 1 "GND" H 10255 577 50  0000 C CNN
+F 2 "" H 10250 750 50  0001 C CNN
+F 3 "" H 10250 750 50  0001 C CNN
+	1    10250 750 
 	0    1    1    0   
 $EndComp
 $EndSCHEMATC
