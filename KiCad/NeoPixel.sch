@@ -42,12 +42,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 7
-Title ""
+Title "HAP I/O Card"
 Date ""
 Rev ""
 Comp ""
-Comment1 ""
-Comment2 ""
+Comment1 "Author Per Malmberg"
+Comment2 "https://github.com/PerMalmberg/HAP-IO-Card"
 Comment3 ""
 Comment4 ""
 $EndDescr
