@@ -36,6 +36,8 @@ LIBS:ESD_Protection
 LIBS:SRR1260-330M
 LIBS:ADS1115IDGST
 LIBS:LM1086
+LIBS:X95840WV20IZ-2_7T1
+LIBS:804-112
 LIBS:HAP-IO-Card-cache
 EELAYER 26 0
 EELAYER END
@@ -66,8 +68,8 @@ $EndSheet
 $Sheet
 S 900  2750 1200 450 
 U 591A7DC8
-F0 "Analog Inputs" 60
-F1 "AnalogInputs.sch" 60
+F0 "Sense Inputs" 60
+F1 "SenseInputs.sch" 60
 $EndSheet
 $Sheet
 S 900  3450 1450 550 

@@ -1,4 +1,4 @@
-update=26/05/2017 20:33:40
+update=28/05/2017 16:33:38
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,16 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1
 [eeschema]
 version=1
 LibDir=LTV-354T_MiniFlat.pretty
@@ -65,15 +75,7 @@ LibName35=C:/Program Files/KiCad/share/kicad/library/ESD_Protection
 LibName36=SRR1260-330M/SRR1260-330M
 LibName37=ADS1115/ADS1115IDGST
 LibName38=LM1086
+LibName39=X95840WV20IZ-2_7T1
+LibName40=Wago/804-112
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=60
-ERC_TestSimilarLabels=1
