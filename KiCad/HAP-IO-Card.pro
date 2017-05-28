@@ -1,4 +1,4 @@
-update=26/05/2017 16:37:39
+update=26/05/2017 20:33:40
 version=1
 last_client=kicad
 [pcbnew]
@@ -67,3 +67,13 @@ LibName37=ADS1115/ADS1115IDGST
 LibName38=LM1086
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1
