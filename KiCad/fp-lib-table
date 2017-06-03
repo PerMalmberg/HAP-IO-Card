@@ -3,4 +3,5 @@
   (lib (name LTV-354T_MiniFlat)(type KiCad)(uri "$(KIPRJMOD)/LTV-354T_MiniFlat.pretty")(options "")(descr ""))
   (lib (name SRR1260-330M)(type Legacy)(uri "$(KIPRJMOD)/SRR1260-330M/SRR1260-330M.mod")(options "")(descr ""))
   (lib (name ADS1115IDGST)(type Legacy)(uri "$(KIPRJMOD)/ADS1115/ADS1115IDGST.mod")(options "")(descr ""))
+  (lib (name TE_Connectivity)(type KiCad)(uri "$(KIPRJMOD)/TE_Connectivity.pretty")(options "")(descr ""))
 )

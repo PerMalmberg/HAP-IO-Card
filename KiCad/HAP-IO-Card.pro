@@ -1,4 +1,4 @@
-update=28/05/2017 16:33:38
+update=03/06/2017 10:43:52
 version=1
 last_client=kicad
 [pcbnew]
@@ -33,6 +33,8 @@ NetFmtName=
 SpiceAjustPassiveValues=0
 LabSize=60
 ERC_TestSimilarLabels=1
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=LTV-354T_MiniFlat.pretty
@@ -76,6 +78,4 @@ LibName36=SRR1260-330M/SRR1260-330M
 LibName37=ADS1115/ADS1115IDGST
 LibName38=LM1086
 LibName39=X95840WV20IZ-2_7T1
-LibName40=Wago/804-112
-[general]
-version=1
+LibName40=TE_Connectivity

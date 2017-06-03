@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TE_Connectivity_1-282834-0
+D TE Connectivity 3-way screw terminal 282834-3
+K 282834-3
+$ENDCMP
+#
+$CMP TE_Connectivity_282834-2
+D TE Connectivity 3-way screw terminal 282834-3
+K 282834-3
+$ENDCMP
+#
+$CMP TE_Connectivity_282834-3
+D TE Connectivity 3-way screw terminal 282834-3
+K 282834-3
+$ENDCMP
+#
+$CMP TE_Connectivity_282834-4
+D TE Connectivity 3-way screw terminal 282834-3
+K 282834-3
+$ENDCMP
+#
+$CMP TE_Connectivity_282834-5
+D TE Connectivity 3-way screw terminal 282834-3
+K 282834-3
+$ENDCMP
+#
+$CMP TE_Connectivity_282834-6
+D TE Connectivity 3-way screw terminal 282834-3
+K 282834-3
+$ENDCMP
+#
+#End Doc Library

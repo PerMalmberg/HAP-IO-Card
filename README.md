@@ -76,14 +76,21 @@ http://www.thebox.myzen.co.uk/Tutorial/Protection.html
 * uC ESP32 thing devboard
   * http://www.mouser.se/new/sparkfun/sparkfun-things/
 
-* Misc resistors
-  * 10k http://se.rs-online.com/web/p/surface-mount-fixed-resistors/9059688/
+* Misc
+  * 10k ohm http://se.rs-online.com/web/p/surface-mount-fixed-resistors/9059688/
+  * 100nF https://www.digikey.se/product-detail/en/murata-electronics-north-america/GRM21BR72E103KW03L/490-3534-1-ND/789439
 
-* Analog Inputs
+
+
+* Sensor Inputs
   * I/O Expander ADS1115IDGST http://se.rs-online.com/web/p/general-purpose-adcs/7094544/
-  * 3.3V Zener http://se.rs-online.com/web/p/zener-diodes/7930793/
-  * 10k Trim resistor http://se.rs-online.com/web/p/trimmer-resistors/7692167/
-  * 100nF http://se.rs-online.com/web/p/ceramic-multilayer-capacitors/4514777/
+  * Varistor 39V 0805 https://www.digikey.se/product-detail/en/epcos-tdk/B72510E250K62/495-7453-1-ND/6073112
+  * 499 ohm resistor, 0.5W 0805 https://www.digikey.se/product-detail/en/vishay-dale/CRCW0805499RFKEAHP/541-499TCT-ND/2222850
+  * 2k resistor, 0.5W 0805 https://www.digikey.se/product-detail/en/panasonic-electronic-components/ERJ-P06F2001V/P16065CT-ND/3982412
+  * Shottky diode https://www.digikey.se/product-detail/en/on-semiconductor/NRVB130T1G/NRVB130T1GOSCT-ND/5213347
+  * S1BB-13-F https://www.digikey.se/product-detail/en/diodes-incorporated/S1BB-13-F/S1BB-FDICT-ND/815933
+  
+  
 
   * Digital I/O
     * I/O Expander MCP23017 http://se.rs-online.com/web/p/i-o-expanders/0403816/
@@ -101,19 +108,28 @@ http://www.thebox.myzen.co.uk/Tutorial/Protection.html
       * LED http://se.rs-online.com/web/p/visible-leds/8886313/
       * LED limiting resistor 180R http://se.rs-online.com/web/p/surface-mount-fixed-resistors/9059616/
 
-* New power supply
+* Power supply
+  * Screw terminal 3-way https://www.digikey.se/product-detail/en/te-connectivity-amp-connectors/282834-3/A98334-ND/1153264
   * LM1086-5V http://se.rs-online.com/web/p/low-dropout-voltage-regulators/5358578/
   * LM1086-3.3V http://se.rs-online.com/web/p/low-dropout-voltage-regulators/5339498/
-  * 100uF http://se.rs-online.com/web/p/aluminium-capacitors/8650656/
+  * 100uF 16V 5mm http://se.rs-online.com/web/p/aluminium-capacitors/1077579/
+  * Protection diode MBRS360BT3G http://se.rs-online.com/web/p/rectifier-schottky-diodes/7925653P/
+  * Signal filter https://www.digikey.se/product-detail/en/murata-electronics-north-america/DSS1NB31H104Q91A/490-9806-1-ND/5018359
 
+
+https://www.facebook.com/groups/SHgruppen/permalink/662561353933301/?comment_id=662612023928234&reply_comment_id=662644947258275&notif_t=group_comment_reply&notif_id=1495821072857152
+
+https://www.facebook.com/groups/SHgruppen/permalink/662561353933301/?comment_id=662622243927212&reply_comment_id=662650937257676&comment_tracking=%7B%22tn%22%3A%22R5%22%7D
 
 ## TODO
-Fuse 12V and 3.3V
+Fuse 12V and 3.3V PolyFuse
+
+I2C jumpers to disable devices (development feature)?
+ESD protection on in/outputs
 Display
 Flashing wires
 Mounting holes http://www.ebay.com/itm/DIN-Rail-Mounting-Carrier-for-72mm-x-110mm-PCB-Housing-Bracket-/131318695142
 I2C expansion header
-NeoPixel (with expansion header)
 Test points
 
 
