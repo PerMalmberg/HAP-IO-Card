@@ -76,14 +76,14 @@ http://www.thebox.myzen.co.uk/Tutorial/Protection.html
 * uC ESP32 thing devboard
   * http://www.mouser.se/new/sparkfun/sparkfun-things/
 
-* Misc
-  * 10k ohm http://se.rs-online.com/web/p/surface-mount-fixed-resistors/9059688/
-  * 100nF https://www.digikey.se/product-detail/en/murata-electronics-north-america/GRM21BR72E103KW03L/490-3534-1-ND/789439
+* Common components
+  * 10k ohm 0805 0.5W https://www.digikey.se/product-detail/en/panasonic-electronic-components/ERJ-P06F1002V/P16059CT-ND/3982406
+  * 100nF Cap https://www.digikey.se/product-detail/en/avx-corporation/08055C104JAT2A/478-3352-1-ND/930144
 
 
 
 * Sensor Inputs
-  * I/O Expander ADS1115IDGST http://se.rs-online.com/web/p/general-purpose-adcs/7094544/
+  * I/O Expander ADS1115IDGST https://www.digikey.se/product-detail/en/texas-instruments/ADS1115IDGST/296-24934-1-ND/2123298
   * Varistor 39V 0805 https://www.digikey.se/product-detail/en/epcos-tdk/B72510E250K62/495-7453-1-ND/6073112
   * 499 ohm resistor, 0.5W 0805 https://www.digikey.se/product-detail/en/vishay-dale/CRCW0805499RFKEAHP/541-499TCT-ND/2222850
   * 2k resistor, 0.5W 0805 https://www.digikey.se/product-detail/en/panasonic-electronic-components/ERJ-P06F2001V/P16065CT-ND/3982412
@@ -94,25 +94,24 @@ http://www.thebox.myzen.co.uk/Tutorial/Protection.html
 
   * Digital I/O
     * I/O Expander MCP23017 http://se.rs-online.com/web/p/i-o-expanders/0403816/
-    * Input
-      * Pull-up 10k resitor network http://se.rs-online.com/web/p/resistor-networks/5224071/
-      * LED http://se.rs-online.com/web/p/visible-leds/8886304/
-      * LED limiting resistor 180R http://se.rs-online.com/web/p/surface-mount-fixed-resistors/9059616/
-      * 100R discharge resistor http://se.rs-online.com/web/p/surface-mount-fixed-resistors/9013689/
-      * 10uF http://se.rs-online.com/web/p/aluminium-capacitors/7060475/
+    * Input      
+      * LED Green Vf 2.2, 20mA https://www.digikey.se/product-detail/en/lumex-opto-components-inc/SML-LXR85GC-TR/67-1557-1-ND/304376
+      * LED limiting resistor 55R, 1/8W, 0805 https://www.digikey.se/product-detail/en/panasonic-electronic-components/ERJ-6GEYJ560V/P56ACT-ND/42928
+      * 100R discharge resistor https://www.digikey.se/product-detail/en/stackpole-electronics-inc/RNCP0805FTD100R/RNCP0805FTD100RCT-ND/2240548
+      * 10uF Electrolytic Cap https://www.digikey.se/product-detail/en/panasonic-electronic-components/EEE-1EA100WR/PCE3895CT-ND/766271
       * 1k 3W http://se.rs-online.com/web/p/surface-mount-fixed-resistors/8711121/
     * Output
       * Base resistor 470 http://se.rs-online.com/web/p/surface-mount-fixed-resistors/9059635/
-      * Kickback protection 1N4007 http://se.rs-online.com/web/p/rectifier-schottky-diodes/7743278/
-      *  Transistor http://se.rs-online.com/web/p/bipolar-transistors/7703343/
-      * LED http://se.rs-online.com/web/p/visible-leds/8886313/
-      * LED limiting resistor 180R http://se.rs-online.com/web/p/surface-mount-fixed-resistors/9059616/
+      * Kickback protection MBR0580 https://www.digikey.se/product-detail/en/micro-commercial-co/MBR0580-TP/MBR0580-TPMSCT-ND/2423306
+      *  Transistor https://www.digikey.se/product-detail/en/diodes-incorporated/ZXTN25050DFHTA/ZXTN25050DFHCT-ND/1043605
+      * LED RED 20mA, Vf 2V https://www.digikey.se/product-detail/en/lumex-opto-components-inc/SML-LXR85IC-TR/67-1556-1-ND/304374
+      * LED limiting resistor 68R, 1/8W, 0805 https://www.digikey.se/product-detail/en/stackpole-electronics-inc/RMCF0805JT68R0/RMCF0805JT68R0CT-ND/1942537
 
 * Power supply
   * Screw terminal 3-way https://www.digikey.se/product-detail/en/te-connectivity-amp-connectors/282834-3/A98334-ND/1153264
-  * LM1086-5V http://se.rs-online.com/web/p/low-dropout-voltage-regulators/5358578/
-  * LM1086-3.3V http://se.rs-online.com/web/p/low-dropout-voltage-regulators/5339498/
-  * 100uF 16V 5mm http://se.rs-online.com/web/p/aluminium-capacitors/1077579/
+  * LM1086-5V https://www.digikey.se/product-detail/en/texas-instruments/LM1086IT-5.0-NOPB/LM1086IT-5.0-NOPB-ND/363580
+  * LM1086-3.3V https://www.digikey.se/product-detail/en/texas-instruments/LM1086IT-3.3-NOPB/LM1086IT-3.3-NOPB-ND/363579
+  * 100uF 16V 5mm https://www.digikey.se/product-detail/en/nichicon/ULD1C101MED1TD/493-14722-1-ND/6161730
   * Protection diode MBRS360BT3G http://se.rs-online.com/web/p/rectifier-schottky-diodes/7925653P/
   * Signal filter https://www.digikey.se/product-detail/en/murata-electronics-north-america/DSS1NB31H104Q91A/490-9806-1-ND/5018359
 
