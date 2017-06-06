@@ -49,20 +49,6 @@ None - the intent is to keep everything isolated from peripherial devices.
 
 On-board backup for I2C and driver circuits.
 
-# Display
-
-TBD
-
-## Connectors
-
-* Screw terminals for power and all input and outputs.
-* Each input/output shall also have a via for soldering the connection.
-* JTAG
-
-# Display
-
-TBD
-
 ## Reference Links
 
 http://www.thebox.myzen.co.uk/Tutorial/Protection.html
@@ -78,18 +64,18 @@ http://www.thebox.myzen.co.uk/Tutorial/Protection.html
 
 * Common components
   * 10k ohm 0805 0.5W https://www.digikey.se/product-detail/en/panasonic-electronic-components/ERJ-P06F1002V/P16059CT-ND/3982406
-  * 100nF Cap https://www.digikey.se/product-detail/en/avx-corporation/08055C104JAT2A/478-3352-1-ND/930144
+  * 100nF 50V https://www.digikey.se/product-detail/en/avx-corporation/08055C104JAT2A/478-3352-1-ND/930144
 
 
 
 * Sensor Inputs
   * I/O Expander ADS1115IDGST https://www.digikey.se/product-detail/en/texas-instruments/ADS1115IDGST/296-24934-1-ND/2123298
   * Varistor 39V 0805 https://www.digikey.se/product-detail/en/epcos-tdk/B72510E250K62/495-7453-1-ND/6073112
-  * 499 ohm resistor, 0.5W 0805 https://www.digikey.se/product-detail/en/vishay-dale/CRCW0805499RFKEAHP/541-499TCT-ND/2222850
   * 2k resistor, 0.5W 0805 https://www.digikey.se/product-detail/en/panasonic-electronic-components/ERJ-P06F2001V/P16065CT-ND/3982412
-  * Shottky diode https://www.digikey.se/product-detail/en/on-semiconductor/NRVB130T1G/NRVB130T1GOSCT-ND/5213347
-  * S1BB-13-F https://www.digikey.se/product-detail/en/diodes-incorporated/S1BB-13-F/S1BB-FDICT-ND/815933
-  
+  * Clamping Shottky diodes 60V, 500mA SOD-123 https://www.digikey.se/product-detail/en/stmicroelectronics/STPS0560Z/497-3787-1-ND/691956
+  * Protection diode 3A, SMA https://www.digikey.se/product-detail/en/comchip-technology/CDBA3100-HF/641-1747-1-ND/5400721
+  * 100 ohm 1/8W 0805 https://www.digikey.se/product-detail/en/yageo/RC0805FR-07100RL/311-100CRCT-ND/730490
+  * 1k ohm 0.5W 0805 https://www.digikey.se/product-detail/en/panasonic-electronic-components/ERJ-P6WF1001V/P16885CT-ND/4964924
   
 
   * Digital I/O
@@ -100,6 +86,7 @@ http://www.thebox.myzen.co.uk/Tutorial/Protection.html
       * 100R discharge resistor https://www.digikey.se/product-detail/en/stackpole-electronics-inc/RNCP0805FTD100R/RNCP0805FTD100RCT-ND/2240548
       * 10uF Electrolytic Cap https://www.digikey.se/product-detail/en/panasonic-electronic-components/EEE-1EA100WR/PCE3895CT-ND/766271
       * 1k 3W http://se.rs-online.com/web/p/surface-mount-fixed-resistors/8711121/
+      * LTV-354T https://www.digikey.se/product-detail/en/lite-on-inc/LTV-354T/160-1333-1-ND/385797
     * Output
       * Base resistor 470 http://se.rs-online.com/web/p/surface-mount-fixed-resistors/9059635/
       * Kickback protection MBR0580 https://www.digikey.se/product-detail/en/micro-commercial-co/MBR0580-TP/MBR0580-TPMSCT-ND/2423306
@@ -113,6 +100,7 @@ http://www.thebox.myzen.co.uk/Tutorial/Protection.html
   * LM1086-3.3V https://www.digikey.se/product-detail/en/texas-instruments/LM1086IT-3.3-NOPB/LM1086IT-3.3-NOPB-ND/363579
   * 100uF 16V 5mm https://www.digikey.se/product-detail/en/nichicon/ULD1C101MED1TD/493-14722-1-ND/6161730
   * Protection diode MBRS360BT3G http://se.rs-online.com/web/p/rectifier-schottky-diodes/7925653P/
+  * Zener 5.1V SOD-123 https://www.digikey.se/products/en?keywords=1N4733AW-TPMSCT-ND
   * Signal filter https://www.digikey.se/product-detail/en/murata-electronics-north-america/DSS1NB31H104Q91A/490-9806-1-ND/5018359
 
 
