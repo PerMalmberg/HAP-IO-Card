@@ -626,7 +626,7 @@ P 1750 1350
 F 0 "D413" V 1704 1429 50  0000 L CNN
 F 1 "D" V 1795 1429 50  0000 L CNN
 F 2 "Diodes_SMD:D_SMA" H 1750 1350 50  0001 C CNN
-F 3 "https://www.digikey.se/product-detail/en/smc-diode-solutions/S1ATR/1655-1502-1-ND/6022947" H 1750 1350 50  0001 C CNN
+F 3 "https://www.digikey.se/product-detail/en/comchip-technology/CDBA3100-HF/641-1747-1-ND/5400721" H 1750 1350 50  0001 C CNN
 	1    1750 1350
 	0    1    1    0   
 $EndComp

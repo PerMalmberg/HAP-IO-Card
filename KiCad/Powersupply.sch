@@ -453,4 +453,6 @@ Connection ~ 4650 3300
 Text Notes 5800 3250 0    60   ~ 0
 The Zener diode is to\nprevent rail from going\nabove nominal value\ndue to voltage input\nfrom sensor inputs.
 Connection ~ 5050 2950
+Text Label 1700 2950 0    60   ~ 0
+12V_PWR2
 $EndSCHEMATC
