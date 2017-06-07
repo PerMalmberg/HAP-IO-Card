@@ -101,7 +101,7 @@ U 1 1 5924B014
 P 4450 1300
 F 0 "CON601" H 4424 1755 50  0000 C CNN
 F 1 "AVR-JTAG-10" H 4424 1664 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x06_Pitch2.54mm" V 3880 1320 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x05_Pitch2.54mm" V 3880 1320 50  0001 C CNN
 F 3 "" H 4450 1300 50  0001 C CNN
 	1    4450 1300
 	1    0    0    -1  
