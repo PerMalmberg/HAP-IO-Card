@@ -301,7 +301,7 @@ F 3 "" H 2350 5850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 3900 5800 0    60   Input ~ 0
-5V_I/O_1
+5V_IO_1
 Wire Wire Line
 	1950 5500 5200 5500
 Wire Wire Line
@@ -326,7 +326,7 @@ Wire Wire Line
 	4350 3500 4350 4400
 Connection ~ 4350 3950
 Text GLabel 4900 5700 0    60   Input ~ 0
-GPIO/1UART0_TX
+GPIO1/UART0_TX
 $Comp
 L R R303
 U 1 1 5924AA09
@@ -352,9 +352,9 @@ $EndComp
 Wire Wire Line
 	3900 5800 5200 5800
 Text GLabel 5200 3000 0    60   Input ~ 0
-5V_I/O_2
+5V_IO_2
 Text GLabel 5200 4900 0    60   Input ~ 0
-5V_I/O_Enable
+5V_IO_Enable
 Text GLabel 3850 1900 0    60   Input ~ 0
 GPI38
 Text GLabel 3850 2050 0    60   Input ~ 0
