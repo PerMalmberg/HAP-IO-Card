@@ -80,11 +80,11 @@ F 3 "" H 3050 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 1400 1800 0    60   Input ~ 0
-5V_I/O_2
+5V_IO_2
 Text GLabel 1400 1600 0    60   Input ~ 0
-5V_I/O_1
+5V_IO_1
 Text GLabel 1400 2000 0    60   Input ~ 0
-5V_I/O_Enable
+5V_IO_Enable
 $Comp
 L R R701
 U 1 1 592605CF

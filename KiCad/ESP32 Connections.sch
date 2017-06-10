@@ -209,6 +209,83 @@ F 3 "" H 2200 6050 50  0001 C CNN
 $EndComp
 Text GLabel 1950 5350 0    60   Input ~ 0
 VSPI_CS1
+$Comp
+L R R302
+U 1 1 59249210
+P 2350 5850
+F 0 "R302" H 2280 5804 50  0000 R CNN
+F 1 "10k" H 2280 5895 50  0000 R CNN
+F 2 "Resistors_SMD:R_0805" V 2280 5850 50  0001 C CNN
+F 3 "" H 2350 5850 50  0001 C CNN
+	1    2350 5850
+	-1   0    0    1   
+$EndComp
+Text GLabel 3900 5800 0    60   Input ~ 0
+5V_IO_1
+$Comp
+L Jumper JP302
+U 1 1 59249D8C
+P 4050 3950
+F 0 "JP302" H 4050 4214 50  0000 C CNN
+F 1 "ESP 3.3V" H 4050 4123 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 4050 3950 50  0001 C CNN
+F 3 "" H 4050 3950 50  0001 C CNN
+	1    4050 3950
+	1    0    0    -1  
+$EndComp
+Text GLabel 4900 5700 0    60   Input ~ 0
+GPIO1/UART0_TX
+$Comp
+L R R303
+U 1 1 5924AA09
+P 3250 4800
+F 0 "R303" V 3043 4800 50  0000 C CNN
+F 1 "10k" V 3134 4800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 3180 4800 50  0001 C CNN
+F 3 "" H 3250 4800 50  0001 C CNN
+	1    3250 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper JP301
+U 1 1 5924AABC
+P 2750 4800
+F 0 "JP301" H 2750 5064 50  0000 C CNN
+F 1 "Debug Log Disable" H 2750 4973 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 2750 4800 50  0001 C CNN
+F 3 "" H 2750 4800 50  0001 C CNN
+	1    2750 4800
+	1    0    0    -1  
+$EndComp
+Text GLabel 5200 3000 0    60   Input ~ 0
+5V_IO_2
+Text GLabel 5200 4900 0    60   Input ~ 0
+5V_IO_Enable
+Text GLabel 3850 1900 0    60   Input ~ 0
+GPI38
+Text GLabel 3850 2050 0    60   Input ~ 0
+GPI39
+Text GLabel 5150 4750 0    60   Input ~ 0
+GPIO0/Button
+Text GLabel 4500 5100 0    60   Input ~ 0
+GPIO5/LED
+Text GLabel 4250 4400 0    60   Input ~ 0
+GPIO16/UART2_RX
+Text GLabel 4250 4550 0    60   Input ~ 0
+GPIO17/UART2_TX
+Text GLabel 4050 5600 0    60   Input ~ 0
+GPIO3/UART0_RX
+$Comp
+L PWR_FLAG #FLG074
+U 1 1 5927191A
+P 4350 3950
+F 0 "#FLG074" H 4350 4025 50  0001 C CNN
+F 1 "PWR_FLAG" V 4350 4078 50  0000 L CNN
+F 2 "" H 4350 3950 50  0001 C CNN
+F 3 "" H 4350 3950 50  0001 C CNN
+	1    4350 3950
+	0    1    1    0   
+$EndComp
 Wire Wire Line
 	3800 3300 5200 3300
 Wire Wire Line
@@ -225,8 +302,6 @@ Wire Wire Line
 	3950 3000 3800 3000
 Wire Wire Line
 	2300 3400 5200 3400
-Wire Wire Line
-	5200 3500 4350 3500
 Wire Wire Line
 	5050 5200 5200 5200
 Wire Wire Line
@@ -289,19 +364,6 @@ Wire Wire Line
 	5050 2400 5200 2400
 Wire Wire Line
 	4400 5300 5200 5300
-$Comp
-L R R302
-U 1 1 59249210
-P 2350 5850
-F 0 "R302" H 2280 5804 50  0000 R CNN
-F 1 "10k" H 2280 5895 50  0000 R CNN
-F 2 "Resistors_SMD:R_0805" V 2280 5850 50  0001 C CNN
-F 3 "" H 2350 5850 50  0001 C CNN
-	1    2350 5850
-	-1   0    0    1   
-$EndComp
-Text GLabel 3900 5800 0    60   Input ~ 0
-5V_IO_1
 Wire Wire Line
 	1950 5500 5200 5500
 Wire Wire Line
@@ -309,56 +371,11 @@ Wire Wire Line
 Wire Wire Line
 	2200 6000 2200 6050
 Connection ~ 2200 6000
-$Comp
-L Jumper JP302
-U 1 1 59249D8C
-P 4050 3950
-F 0 "JP302" H 4050 4214 50  0000 C CNN
-F 1 "ESP 3.3V" H 4050 4123 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 4050 3950 50  0001 C CNN
-F 3 "" H 4050 3950 50  0001 C CNN
-	1    4050 3950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3450 3950 3750 3950
-Wire Wire Line
-	4350 3500 4350 4400
 Connection ~ 4350 3950
-Text GLabel 4900 5700 0    60   Input ~ 0
-GPIO1/UART0_TX
-$Comp
-L R R303
-U 1 1 5924AA09
-P 3250 4800
-F 0 "R303" V 3043 4800 50  0000 C CNN
-F 1 "10k" V 3134 4800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 3180 4800 50  0001 C CNN
-F 3 "" H 3250 4800 50  0001 C CNN
-	1    3250 4800
-	0    1    1    0   
-$EndComp
-$Comp
-L Jumper JP301
-U 1 1 5924AABC
-P 2750 4800
-F 0 "JP301" H 2750 5064 50  0000 C CNN
-F 1 "Debug Log Disable" H 2750 4973 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 2750 4800 50  0001 C CNN
-F 3 "" H 2750 4800 50  0001 C CNN
-	1    2750 4800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3900 5800 5200 5800
-Text GLabel 5200 3000 0    60   Input ~ 0
-5V_IO_2
-Text GLabel 5200 4900 0    60   Input ~ 0
-5V_IO_Enable
-Text GLabel 3850 1900 0    60   Input ~ 0
-GPI38
-Text GLabel 3850 2050 0    60   Input ~ 0
-GPI39
 Wire Wire Line
 	5200 2000 5200 1850
 Wire Wire Line
@@ -388,8 +405,6 @@ Wire Wire Line
 Wire Wire Line
 	4900 4600 5200 4600
 Wire Wire Line
-	4350 4400 5200 4400
-Wire Wire Line
 	5200 4500 5150 4500
 Wire Wire Line
 	5150 4500 5150 4450
@@ -397,20 +412,12 @@ Wire Wire Line
 	5150 4450 4250 4450
 Wire Wire Line
 	4250 4450 4250 4400
-Text GLabel 5150 4750 0    60   Input ~ 0
-GPIO0/Button
 Wire Wire Line
 	5150 4750 5200 4750
 Wire Wire Line
 	5200 4750 5200 4800
-Text GLabel 4500 5100 0    60   Input ~ 0
-GPIO5/LED
 Wire Wire Line
 	4500 5100 5200 5100
-Text GLabel 4250 4400 0    60   Input ~ 0
-GPIO16/UART2_RX
-Text GLabel 4250 4550 0    60   Input ~ 0
-GPIO17/UART2_TX
 Wire Wire Line
 	2050 5700 2050 5500
 Connection ~ 2050 5500
@@ -429,21 +436,13 @@ Wire Wire Line
 Wire Wire Line
 	2350 5700 2350 5350
 Connection ~ 2350 5350
-Text GLabel 4050 5600 0    60   Input ~ 0
-GPIO3/UART0_RX
 Wire Wire Line
 	3100 4800 3050 4800
 Wire Wire Line
 	5200 5600 4050 5600
-$Comp
-L PWR_FLAG #FLG074
-U 1 1 5927191A
-P 4350 3950
-F 0 "#FLG074" H 4350 4025 50  0001 C CNN
-F 1 "PWR_FLAG" V 4350 4078 50  0000 L CNN
-F 2 "" H 4350 3950 50  0001 C CNN
-F 3 "" H 4350 3950 50  0001 C CNN
-	1    4350 3950
-	0    1    1    0   
-$EndComp
+NoConn ~ 5200 4400
+Wire Wire Line
+	5200 3500 4350 3500
+Wire Wire Line
+	4350 3500 4350 3950
 $EndSCHEMATC
