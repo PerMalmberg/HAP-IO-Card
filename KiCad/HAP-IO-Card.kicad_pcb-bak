@@ -1,14 +1,14 @@
 (kicad_pcb (version 20170123) (host pcbnew "(2017-05-31 revision c0bb8a30c)-makepkg")
 
   (general
-    (links 649)
+    (links 660)
     (no_connects 0)
     (area 34.499762 15.011666 148.383572 90.7625)
     (thickness 1.6)
     (drawings 198)
-    (tracks 1824)
+    (tracks 1818)
     (zones 0)
-    (modules 402)
+    (modules 415)
     (nets 162)
   )
 
@@ -465,6 +465,188 @@
     (add_net "/Sense Inputs/Sense6_DUT")
     (add_net "/Sense Inputs/Sense7_DUT")
     (add_net "/Sense Inputs/Sense8_DUT")
+  )
+
+  (module StichingVIA:StichingVia locked (layer F.Cu) (tedit 593C66A1) (tstamp 593D08AF)
+    (at 117.094 63.246)
+    (fp_text reference REF** (at -0.65 0.03) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (fp_text value StichingVia (at -0.86 0.14) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (fp_circle (center 0 0) (end 0.22 0.12) (layer F.CrtYd) (width 0.1))
+    (fp_circle (center 0 0) (end 0.25 0) (layer B.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 94 Earth) (zone_connect 2))
+  )
+
+  (module StichingVIA:StichingVia locked (layer F.Cu) (tedit 593C66A1) (tstamp 593D08A6)
+    (at 119.126 61.214)
+    (fp_text reference REF** (at -0.65 0.03) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (fp_text value StichingVia (at -0.86 0.14) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (fp_circle (center 0 0) (end 0.25 0) (layer B.CrtYd) (width 0.1))
+    (fp_circle (center 0 0) (end 0.22 0.12) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 94 Earth) (zone_connect 2))
+  )
+
+  (module StichingVIA:StichingVia locked (layer F.Cu) (tedit 593C66A1) (tstamp 593D0880)
+    (at 126.238 45.466)
+    (fp_text reference REF** (at -0.65 0.03) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (fp_text value StichingVia (at -0.86 0.14) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (fp_circle (center 0 0) (end 0.25 0) (layer B.CrtYd) (width 0.1))
+    (fp_circle (center 0 0) (end 0.22 0.12) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 94 Earth) (zone_connect 2))
+  )
+
+  (module StichingVIA:StichingVia locked (layer F.Cu) (tedit 593C66A1) (tstamp 593D0873)
+    (at 126.238 61.214)
+    (fp_text reference REF** (at -0.65 0.03) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (fp_text value StichingVia (at -0.86 0.14) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (fp_circle (center 0 0) (end 0.22 0.12) (layer F.CrtYd) (width 0.1))
+    (fp_circle (center 0 0) (end 0.25 0) (layer B.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 94 Earth) (zone_connect 2))
+  )
+
+  (module StichingVIA:StichingVia locked (layer F.Cu) (tedit 593C66A1) (tstamp 593D086A)
+    (at 126.238 71.374)
+    (fp_text reference REF** (at -0.65 0.03) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (fp_text value StichingVia (at -0.86 0.14) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (fp_circle (center 0 0) (end 0.25 0) (layer B.CrtYd) (width 0.1))
+    (fp_circle (center 0 0) (end 0.22 0.12) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 94 Earth) (zone_connect 2))
+  )
+
+  (module StichingVIA:StichingVia locked (layer F.Cu) (tedit 593C66A1) (tstamp 593D0632)
+    (at 132.08 71.374)
+    (fp_text reference REF** (at -0.65 0.03) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (fp_text value StichingVia (at -0.86 0.14) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (fp_circle (center 0 0) (end 0.25 0) (layer B.CrtYd) (width 0.1))
+    (fp_circle (center 0 0) (end 0.22 0.12) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 94 Earth) (zone_connect 2))
+  )
+
+  (module StichingVIA:StichingVia locked (layer F.Cu) (tedit 593C66A1) (tstamp 593D05F7)
+    (at 121.666 71.628)
+    (fp_text reference REF** (at -0.65 0.03) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (fp_text value StichingVia (at -0.86 0.14) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (fp_circle (center 0 0) (end 0.22 0.12) (layer F.CrtYd) (width 0.1))
+    (fp_circle (center 0 0) (end 0.25 0) (layer B.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 94 Earth) (zone_connect 2))
+  )
+
+  (module StichingVIA:StichingVia locked (layer F.Cu) (tedit 593C66A1) (tstamp 593D05E5)
+    (at 118.11 69.088)
+    (fp_text reference REF** (at -0.65 0.03) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (fp_text value StichingVia (at -0.86 0.14) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (fp_circle (center 0 0) (end 0.25 0) (layer B.CrtYd) (width 0.1))
+    (fp_circle (center 0 0) (end 0.22 0.12) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 94 Earth) (zone_connect 2))
+  )
+
+  (module StichingVIA:StichingVia locked (layer F.Cu) (tedit 593C66A1) (tstamp 593D05D4)
+    (at 114.3 67.056)
+    (fp_text reference REF** (at -0.65 0.03) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (fp_text value StichingVia (at -0.86 0.14) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (fp_circle (center 0 0) (end 0.22 0.12) (layer F.CrtYd) (width 0.1))
+    (fp_circle (center 0 0) (end 0.25 0) (layer B.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 94 Earth) (zone_connect 2))
+  )
+
+  (module StichingVIA:StichingVia locked (layer F.Cu) (tedit 593C66A1) (tstamp 593D4EDB)
+    (at 76.962 71.882)
+    (fp_text reference REF** (at -0.65 0.03) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (fp_text value StichingVia (at -0.86 0.14) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (fp_circle (center 0 0) (end 0.25 0) (layer B.CrtYd) (width 0.1))
+    (fp_circle (center 0 0) (end 0.22 0.12) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 94 Earth) (zone_connect 2))
+  )
+
+  (module StichingVIA:StichingVia locked (layer F.Cu) (tedit 593C66A1) (tstamp 593D4ED5)
+    (at 78.74 71.882)
+    (fp_text reference REF** (at -0.65 0.03) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (fp_text value StichingVia (at -0.86 0.14) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (fp_circle (center 0 0) (end 0.22 0.12) (layer F.CrtYd) (width 0.1))
+    (fp_circle (center 0 0) (end 0.25 0) (layer B.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 94 Earth) (zone_connect 2))
+  )
+
+  (module StichingVIA:StichingVia locked (layer F.Cu) (tedit 593C66A1) (tstamp 593D4ECF)
+    (at 81.026 71.882)
+    (fp_text reference REF** (at -0.65 0.03) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (fp_text value StichingVia (at -0.86 0.14) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (fp_circle (center 0 0) (end 0.25 0) (layer B.CrtYd) (width 0.1))
+    (fp_circle (center 0 0) (end 0.22 0.12) (layer F.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 94 Earth) (zone_connect 2))
+  )
+
+  (module StichingVIA:StichingVia locked (layer F.Cu) (tedit 593C66A1) (tstamp 593D4EC0)
+    (at 83.82 71.882)
+    (fp_text reference REF** (at -0.65 0.03) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (fp_text value StichingVia (at -0.86 0.14) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (fp_circle (center 0 0) (end 0.22 0.12) (layer F.CrtYd) (width 0.1))
+    (fp_circle (center 0 0) (end 0.25 0) (layer B.CrtYd) (width 0.1))
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 94 Earth) (zone_connect 2))
   )
 
   (module StichingVIA:StichingVia locked (layer F.Cu) (tedit 593C66A1) (tstamp 593D4EA3)
@@ -13774,13 +13956,7 @@
   (segment (start 119.38 28.72) (end 119.38 28.78) (width 0.25) (layer F.Cu) (net 94) (status 30))
   (segment (start 108.88 28.72) (end 108.88 28.88) (width 0.25) (layer F.Cu) (net 94) (status 30))
   (segment (start 103.83 28.72) (end 103.92 28.72) (width 0.25) (layer F.Cu) (net 94) (status 30))
-  (segment (start 126.4 72.2) (end 129.96 72.2) (width 0.25) (layer B.Cu) (net 94) (status 20))
   (segment (start 129.96 72.2) (end 130.23 72.47) (width 0.25) (layer B.Cu) (net 94) (status 30))
-  (segment (start 132 76.4) (end 129.245001 73.645001) (width 0.25) (layer F.Cu) (net 94))
-  (segment (start 129.245001 73.645001) (end 126.844999 73.645001) (width 0.25) (layer F.Cu) (net 94))
-  (segment (start 126.844999 73.645001) (end 126.4 73.200002) (width 0.25) (layer F.Cu) (net 94))
-  (segment (start 126.4 73.200002) (end 126.4 72.2) (width 0.25) (layer F.Cu) (net 94))
-  (via (at 126.4 72.2) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 94))
   (segment (start 130.23 77.72) (end 130.68 77.72) (width 0.25) (layer B.Cu) (net 94) (status 30))
   (segment (start 130.68 77.72) (end 132 76.4) (width 0.25) (layer B.Cu) (net 94) (status 10))
   (via (at 132 76.4) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 94))
@@ -15277,6 +15453,14 @@
         (xy 80.527 82.533) (xy 80.547 82.533) (xy 80.547 82.787) (xy 80.527 82.787) (xy 80.527 82.807)
         (xy 80.273 82.807) (xy 80.273 82.787) (xy 80.253 82.787) (xy 80.253 82.533) (xy 80.273 82.533)
         (xy 80.273 82.513) (xy 80.527 82.513)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 77.813201 69.994838) (xy 77.924943 69.994935) (xy 77.924838 70.115167) (xy 78.066883 70.458943) (xy 78.329673 70.722192)
+        (xy 78.673201 70.864838) (xy 79.045167 70.865162) (xy 79.388943 70.723117) (xy 79.57238 70.54) (xy 83.197537 70.54)
+        (xy 83.229673 70.572192) (xy 83.573201 70.714838) (xy 83.945167 70.715162) (xy 84.288943 70.573117) (xy 84.552192 70.310327)
+        (xy 84.646645 70.082859) (xy 87.326434 72.762648) (xy 74.907152 72.762648) (xy 77.715522 69.954278)
       )
     )
     (filled_polygon
