@@ -73,7 +73,7 @@ http://www.thebox.myzen.co.uk/Tutorial/Protection.html
   
 
 * Digital I/O
-  * I/O Expander MCP23017 http://se.rs-online.com/web/p/i-o-expanders/0403816/
+  * I/O Expander MCP23017 https://www.digikey.se/product-detail/en/microchip-technology/MCP23017T-E-SO/MCP23017T-E-SOCT-ND/5358289
   * Input      
     * LED Green Vf 2.2, 20mA https://www.digikey.se/product-detail/en/lumex-opto-components-inc/SML-LXR85GC-TR/67-1557-1-ND/304376
     * LED limiting resistor 55R, 1/8W, 0805 https://www.digikey.se/product-detail/en/panasonic-electronic-components/ERJ-6GEYJ560V/P56ACT-ND/42928
