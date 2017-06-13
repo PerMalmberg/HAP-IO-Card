@@ -996,7 +996,7 @@ P 1750 3850
 F 0 "D415" V 1704 3929 50  0000 L CNN
 F 1 "D" V 1795 3929 50  0000 L CNN
 F 2 "Diodes_SMD:D_SMA" H 1750 3850 50  0001 C CNN
-F 3 "https://www.digikey.se/product-detail/en/smc-diode-solutions/S1ATR/1655-1502-1-ND/6022947" H 1750 3850 50  0001 C CNN
+F 3 "https://www.digikey.se/product-detail/en/comchip-technology/CDBA3100-HF/641-1747-1-ND/5400721" H 1750 3850 50  0001 C CNN
 	1    1750 3850
 	0    1    1    0   
 $EndComp
@@ -1136,7 +1136,7 @@ P 1750 5000
 F 0 "D416" V 1704 5079 50  0000 L CNN
 F 1 "D" V 1795 5079 50  0000 L CNN
 F 2 "Diodes_SMD:D_SMA" H 1750 5000 50  0001 C CNN
-F 3 "https://www.digikey.se/product-detail/en/smc-diode-solutions/S1ATR/1655-1502-1-ND/6022947" H 1750 5000 50  0001 C CNN
+F 3 "https://www.digikey.se/product-detail/en/comchip-technology/CDBA3100-HF/641-1747-1-ND/5400721" H 1750 5000 50  0001 C CNN
 	1    1750 5000
 	0    1    1    0   
 $EndComp
@@ -1276,7 +1276,7 @@ P 1750 6150
 F 0 "D417" V 1704 6229 50  0000 L CNN
 F 1 "D" V 1795 6229 50  0000 L CNN
 F 2 "Diodes_SMD:D_SMA" H 1750 6150 50  0001 C CNN
-F 3 "https://www.digikey.se/product-detail/en/smc-diode-solutions/S1ATR/1655-1502-1-ND/6022947" H 1750 6150 50  0001 C CNN
+F 3 "https://www.digikey.se/product-detail/en/comchip-technology/CDBA3100-HF/641-1747-1-ND/5400721" H 1750 6150 50  0001 C CNN
 	1    1750 6150
 	0    1    1    0   
 $EndComp
@@ -1416,7 +1416,7 @@ P 1750 7300
 F 0 "D418" V 1704 7379 50  0000 L CNN
 F 1 "D" V 1795 7379 50  0000 L CNN
 F 2 "Diodes_SMD:D_SMA" H 1750 7300 50  0001 C CNN
-F 3 "https://www.digikey.se/product-detail/en/smc-diode-solutions/S1ATR/1655-1502-1-ND/6022947" H 1750 7300 50  0001 C CNN
+F 3 "https://www.digikey.se/product-detail/en/comchip-technology/CDBA3100-HF/641-1747-1-ND/5400721" H 1750 7300 50  0001 C CNN
 	1    1750 7300
 	0    1    1    0   
 $EndComp
@@ -1556,7 +1556,7 @@ P 3750 1450
 F 0 "D423" V 3704 1529 50  0000 L CNN
 F 1 "D" V 3795 1529 50  0000 L CNN
 F 2 "Diodes_SMD:D_SMA" H 3750 1450 50  0001 C CNN
-F 3 "https://www.digikey.se/product-detail/en/smc-diode-solutions/S1ATR/1655-1502-1-ND/6022947" H 3750 1450 50  0001 C CNN
+F 3 "https://www.digikey.se/product-detail/en/comchip-technology/CDBA3100-HF/641-1747-1-ND/5400721" H 3750 1450 50  0001 C CNN
 	1    3750 1450
 	0    1    1    0   
 $EndComp
@@ -1696,7 +1696,7 @@ P 3750 2800
 F 0 "D424" V 3704 2879 50  0000 L CNN
 F 1 "D" V 3795 2879 50  0000 L CNN
 F 2 "Diodes_SMD:D_SMA" H 3750 2800 50  0001 C CNN
-F 3 "https://www.digikey.se/product-detail/en/smc-diode-solutions/S1ATR/1655-1502-1-ND/6022947" H 3750 2800 50  0001 C CNN
+F 3 "https://www.digikey.se/product-detail/en/comchip-technology/CDBA3100-HF/641-1747-1-ND/5400721" H 3750 2800 50  0001 C CNN
 	1    3750 2800
 	0    1    1    0   
 $EndComp
