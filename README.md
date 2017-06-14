@@ -69,7 +69,7 @@ http://www.thebox.myzen.co.uk/Tutorial/Protection.html
   * Clamping Shottky diodes 60V, 500mA SOD-123 https://www.digikey.se/product-detail/en/stmicroelectronics/STPS0560Z/497-3787-1-ND/691956
   * Protection diode 3A, SMA https://www.digikey.se/product-detail/en/comchip-technology/CDBA3100-HF/641-1747-1-ND/5400721
   * 100 ohm 1/8W 0805 https://www.digikey.se/product-detail/en/yageo/RC0805FR-07100RL/311-100CRCT-ND/730490
-  * 1k ohm 0.5W 0805 https://www.digikey.se/product-detail/en/panasonic-electronic-components/ERJ-P06F1001V/P16058CT-ND/3982405
+  * 1k ohm 0.5W 0805 https://www.digikey.se/product-detail/en/vishay-dale/CRCW08051K00FKEAHP/541-1.00KTCT-ND/2222852
   
 
 * Digital I/O
@@ -82,11 +82,11 @@ http://www.thebox.myzen.co.uk/Tutorial/Protection.html
     * 1k 3W, 1%, 2512 https://www.digikey.se/product-detail/en/te-connectivity-passive-product/35221K0FT/A121161CT-ND/5245218
     * LTV-354T https://www.digikey.se/product-detail/en/lite-on-inc/LTV-354T/160-1333-1-ND/385797
   * Output
-    * Base resistor 470 http://se.rs-online.com/web/p/surface-mount-fixed-resistors/9059635/
+    * Base resistor 470 http://www.digikey.se/scripts/DkSearch/dksus.dll?Detail&itemSeq=230677912&uq=636330538988753686
     * Kickback protection MBR0580 https://www.digikey.se/product-detail/en/micro-commercial-co/MBR0580-TP/MBR0580-TPMSCT-ND/2423306
     * Transistor https://www.digikey.se/product-detail/en/diodes-incorporated/ZXTN25050DFHTA/ZXTN25050DFHCT-ND/1043605
     * LED RED 20mA, Vf 2V https://www.digikey.se/product-detail/en/lumex-opto-components-inc/SML-LXR85IC-TR/67-1556-1-ND/304374
-    * LED limiting resistor 68R, 1/8W, 0805 https://www.digikey.se/product-detail/en/stackpole-electronics-inc/RMCF0805JT68R0/RMCF0805JT68R0CT-ND/1942537
+    * LED limiting resistor 68R, 1/8W, 0805 https://www.digikey.se/product-detail/en/stack  pole-electronics-inc/RMCF0805JT68R0/RMCF0805JT68R0CT-ND/1942537
 
 * Power supply
   * Screw terminal 3-way https://www.digikey.se/product-detail/en/te-connectivity-amp-connectors/282834-3/A98334-ND/1153264
